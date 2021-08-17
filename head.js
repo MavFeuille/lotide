@@ -7,8 +7,13 @@ const assertEqual = function(actual, expected) {
 };
 
 const head = function(array) {
- return array[0] ? array [0] : undefined;
-}
+ if (array[0] === true) {
+   return array[0];
+  } else {
+   return "";
+  }
+};
+ 
 
 // TEST CODE
 assertEqual(head([5,6,7]), 5);
