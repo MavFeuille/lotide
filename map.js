@@ -38,7 +38,7 @@ const assertArraysEqual = function(arr1, arr2) {
 };
 
 //test case
-console.log(assertArraysEqual(map(words, word => word.length), [6, 7, 2, 5, 3]));
+assertArraysEqual(map(words, word => word.length), [6, 7, 2, 5, 3]);
 
 
 
