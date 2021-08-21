@@ -69,7 +69,7 @@ const assertObjectsEqual = function(actual, expected) {
 
 
 
-// ------------ assertEqual tests -----------------
+// ------------ assertObjectsEqual tests -----------------
 assertObjectsEqual(ab, ba); // => true
 assertObjectsEqual(ab, abc); // => false
 assertObjectsEqual(cd, dc); // => true
