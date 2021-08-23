@@ -3,7 +3,7 @@
     "chai": "^4.3.4",
     "mocha": "^9.1.0"
   },
-  "name": "lotide",
+  "name": "@mavfeuille/lotide",
   "version": "1.0.0",
   "main": "assertEqual.js",
   "directories": {
@@ -101,11 +101,11 @@
     "type": "git",
     "url": "git+https://github.com/MavFeuille/lotide.git"
   },
-  "author": "MavFeuille",
+  "author": "mavfeuille",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MavFeuille/lotide/issues"
   },
   "homepage": "https://github.com/MavFeuille/lotide#readme",
-  "description": ""
+  "description": "A mini clone of the [Lodash](https://lodash.com) library. This project was created and published by me as part of my learnings at Lighthouse Labs. "
 }
