@@ -24,6 +24,18 @@ const assertArraysEqual = require('./assertArraysEqual');
 // };
 
 const middle = function (arr) {
+  // let arrLength = arr.length;
+  // let middle = arr.length / 2; // <- set this variable due to "require.length" is not a function
+
+  // if (arrLength < 3) {
+  //   return [];
+  // } else if (arrLength % 2 === 0) {
+  //   return arr[middle - 1], arr[middle];
+  // } else {
+  //   return arr[middle];
+  // }
+
+
   if (arr.length <= 2) {
     return [];
   } else if (arr.length % 2 === 0) {
@@ -33,15 +45,15 @@ const middle = function (arr) {
   }
 };
 
-//original test codes
-// middle([1]); // => []
-// middle([1, 2])// => []
+// //original test codes
+// console.log(middle([1])); // => []
+// console.log(middle([1, 2]))// => []
 
-// middle([1, 2, 3]); // => [2]
-// middle([1, 2, 3, 4, 5]); //=> [3]
+// console.log(middle([1, 2, 3])); // => [2]
+// console.log(middle([1, 2, 3, 4, 5])); //=> [3]
 
-// middle([1, 2, 3, 4]); // => [2, 3]
-// middle([1, 2, 3, 4, 5, 6]); // => [3, 4]
+// console.log(middle([1, 2, 3, 4])); // => [2, 3]
+// console.log(middle([1, 2, 3, 4, 5, 6])); // => [3, 4]
 
 
 
