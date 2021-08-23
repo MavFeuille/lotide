@@ -20,9 +20,10 @@ const assertArraysEqual = function(arr1, arr2) {
   
 };
 
-assertArraysEqual([1, 2, 3], [1, 2, 3]); // => pass
-assertArraysEqual([1, 2, 3], [3, 2, 1]); // => fail
-assertArraysEqual(["1", "2", "3"], ["1", "2", "3"]); // => pass
-assertArraysEqual(["1", "2", "3"], ["1", "2", 3]); // => fail
+// assertArraysEqual([1, 2, 3], [1, 2, 3]); // => pass
+// assertArraysEqual([1, 2, 3], [3, 2, 1]); // => fail
+// assertArraysEqual(["1", "2", "3"], ["1", "2", "3"]); // => pass
+// assertArraysEqual(["1", "2", "3"], ["1", "2", 3]); // => fail
 
-
+//for other file use, do not remove
+module.exports = assertArraysEqual;

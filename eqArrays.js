@@ -18,11 +18,13 @@ const eqArrays = function(arr1, arr2) {
   } return true;
 };
 
+// //Original test codes
+// assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // => true
+// assertEqual(eqArrays([1, 2, 3], [3, 2, 1]), false); // => false
 
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // => true
-assertEqual(eqArrays([1, 2, 3], [3, 2, 1]), false); // => false
-
-assertEqual(eqArrays(["1", "2", "3"], ["1", "2", "3"]), true); // => true
-assertEqual(eqArrays(["1", "2", "3"], ["1", "2", 3]), false); // => false
+// assertEqual(eqArrays(["1", "2", "3"], ["1", "2", "3"]), true); // => true
+// assertEqual(eqArrays(["1", "2", "3"], ["1", "2", 3]), false); // => false
 
 
+//for other file used, do not remove
+module.exports = eqArrays;
