@@ -1,6 +1,10 @@
 // A function returns everything in the array except for the first item
 const tail = (array) => {
-  return array.slice(1);
+  if (array.length > 2) {
+    return array.slice(1);
+  } else {
+    return [];
+  }
 };
 
 
@@ -11,6 +15,7 @@ const assertEqual = (actual, expected) => {
     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
   }
 };
+
 
 
 
